@@ -27,6 +27,7 @@ const {
     test("returns a digit for a Roman numeral(of one character string)", () => {
         expect(romanToDigit("V")).toBe(5) ;
         expect(romanToDigit("X")).toBe(10) ;
+        expect(romanToDigit("XI")).toBe(11);
     })
     test("returns a digit for a Roman numeral(of two character string)", () => {
       expect(romanToDigit("MC")).toBe(1100) ;
